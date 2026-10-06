@@ -436,11 +436,6 @@ function App() {
               </>
             )}
           </button>
-
-          <div className="live-status">
-            <span className="status-dot" />
-            JSON cache ready ({cacheStatus?.successful_queries ?? 0}/{cacheStatus?.total_queries ?? 0})
-          </div>
         </div>
       </header>
 
